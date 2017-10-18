@@ -1,2 +1,2 @@
 # smj_code
-Code for the experiments in the paper Text Matching to Measure Patent Similarity
+Code for the experiments in the paper Arts, S., Cassiman, B., & Gomez, J. C. (2017). Text matching to measure patent similarity. Strategic Management Journal
