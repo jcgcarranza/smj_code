@@ -32,11 +32,11 @@ public class Stage04SplitDataPerYear {
 	 * @param fMainDir The working directory to store the split data.
 	 */
 	public void splitDataPerYear(File fContent, ArrayList<String> alYears, File fMainDir) throws IOException{
+		LinkedHashMap<String, PrintWriter> years = new LinkedHashMap<String, PrintWriter>();
 		String line = "";
 		String yearPatent = "";
 		int yearPat = 0;
 		int nPatent = 0;
-		LinkedHashMap<String, PrintWriter> years = new LinkedHashMap<String, PrintWriter>();
 		BufferedReader brContent = new BufferedReader(new FileReader(fContent));
 		File yearsDir = new File(fMainDir+"/years");
 		System.out.println(yearsDir);
